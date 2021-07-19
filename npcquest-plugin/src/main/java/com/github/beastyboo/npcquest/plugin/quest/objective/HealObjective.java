@@ -21,6 +21,11 @@ public class HealObjective implements Objective {
     }
 
     @Override
+    public void startObjective(Player player) {
+        //TODO: Start OnTimer, run
+    }
+
+    @Override
     public void executeOnComplete(Player player) {
         player.setHealth(player.getHealth() + amount);
         //TODO: next stage

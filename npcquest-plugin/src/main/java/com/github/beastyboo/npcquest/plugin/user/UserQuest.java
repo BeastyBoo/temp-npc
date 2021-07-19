@@ -1,6 +1,7 @@
 package com.github.beastyboo.npcquest.plugin.user;
 import com.github.beastyboo.npcquest.plugin.NPCQuest;
 import com.github.beastyboo.npcquest.plugin.quest.Quest;
+import org.bukkit.entity.Player;
 
 import java.util.UUID;
 
@@ -21,5 +22,9 @@ public class UserQuest extends Quest {
 
     public NPCQuest getCore() {
         return core;
+    }
+
+    public void startQuest(Player player) {
+        getFirstStage().startStage(player);
     }
 }

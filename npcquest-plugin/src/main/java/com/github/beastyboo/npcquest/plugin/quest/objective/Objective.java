@@ -5,9 +5,9 @@ import org.bukkit.entity.Player;
 
 public interface Objective {
 
-    //Completer execute();
-
     Stage parentStage();
+
+    void startObjective(Player player);
 
     void executeOnComplete(Player player);
 

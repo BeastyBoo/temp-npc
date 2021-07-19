@@ -1,6 +1,7 @@
 package com.github.beastyboo.npcquest.plugin.quest;
 
 import com.github.beastyboo.npcquest.plugin.quest.objective.Objective;
+import org.bukkit.entity.Player;
 
 import java.util.Objects;
 
@@ -38,6 +39,10 @@ public class Stage {
 
     public Stage setNextStage(Stage stage) {
         return new Stage(name, objective, stage);
+    }
+
+    public void startStage(Player player) {
+        objective.startObjective(player);
     }
 
     @Override
