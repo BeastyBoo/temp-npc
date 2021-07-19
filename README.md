@@ -1,9 +1,9 @@
-#temp-npc
+# temp-npc
 temp repository.
 
-##Usage
+## Usage
 
-###Accessing the API
+### Accessing the API
 ```java
 QuestPlugin plugin (QuestPlugin) Bukkit.getPluginManager().getPlugin("NPCQuest");
 
