@@ -1,0 +1,6 @@
+main: com.github.beastyboo.npcquest.plugin.NPCQuestPlugin
+name: NPCQuest
+version: ${project.version}
+api-version: 1.16
+depend: [ Citizens ]
+authors: [ BeastyBoo ]

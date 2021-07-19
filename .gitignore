@@ -1,0 +1,8 @@
+.idea
+.idea/
+target/
+*.iws
+out/
+*.iml
+.idea_modules/
+atlassian-ide-plugin.xml
